@@ -1,0 +1,8 @@
+User manual
+1.Run file ‘importdata’
+2.Run file ‘data_types_and_data_completeness’
+3.Run file ‘feature_engineering’ => used file data
+4.Run file ‘Statistical summary’
+5.Run file ‘HandingOutlier’ => used file dataset to draw graphs, in linear regression use data train and data test 
+6.Run file ‘HandingMissingValue’
+
