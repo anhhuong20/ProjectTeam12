@@ -9,7 +9,4 @@ disp(marketingdata);
 fprintf('shape of data');
 disp([row, column]);
 %finding missing values
-total = sum(isnan(Income));
-variableNames = marketingdata.Properties.VariableNames;
-summary(marketingdata);
-
+sum(isnan(Income));

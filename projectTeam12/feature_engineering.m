@@ -11,3 +11,4 @@ numberChild = Kidhome + Teenhome;
 % create data= (age, income, spending, marital_status,numberChild,Education_years)
 data = table(ID, Age,Income,Spending,Marital_Status,numberChild,Education_years);
 Income(isnan(Income))=0;
+Spending(isnan(Spending))=0;

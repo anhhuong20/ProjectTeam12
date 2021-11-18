@@ -14,11 +14,6 @@ subplot(2,2,3)
 boxplot(Spending)
 title('Variable = Spending');
 ylabel('Value');
-
-subplot(2,2,4)
-boxplot(Education_years);
-title('Variable = EducationYears');
-ylabel('Value');
 % remove rows which have Income > 600000
 dataset = data(~(data.Income>600000),:);
 % combine dataset with Education volumn
