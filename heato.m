@@ -1,5 +1,5 @@
 % doc heatmap
-tbl={Age,Income,Spending,Education_years};
+tbl={dataset.Age,dataset.Income,dataset.Spending,dataset.Education_years};
 mp=zeros(4,4);
 for c=1:4   
     for b=c:4
